@@ -13,25 +13,25 @@
           href="#"
           class="px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
           aria-current="page"
-          >Inicio</a
+          >Home</a
         >
 
         <a
           href="#"
           class="px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-          >Eventos</a
+          >Events</a
         >
 
         <a
           href="#"
           class="px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-          >Comunidad</a
+          >Community</a
         >
 
         <a
           href="#"
           class="px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-          >Desafios</a
+          >Challenges</a
         >
       </div>
       <div class="flex ml-24rem">

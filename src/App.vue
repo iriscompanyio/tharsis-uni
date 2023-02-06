@@ -3,6 +3,7 @@ import MLabel from "./components/MLabel.vue";
 import MNavbar from "./components/MNavbar.vue";
 import MVideo from "./components/MVideo.vue";
 import MCounter from "./components/MCounter.vue";
+import MBrand from "./components/MBrand.vue";
 </script>
 
 <template>
