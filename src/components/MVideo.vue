@@ -1,15 +1,15 @@
 <template>
-    <div class="max-w-7xl w-full mx-auto py-16 flex flex-col items-center bg-black-500">
+    <div class="pb-4rem max-w-7xl w-full mx-auto py-4 flex flex-col items-center bg-black-500">
       <div class="mx-auto text-center max-w-md mb-10">
-        <p class="mb-5 text-orange-800 font-extrabold text-3xl <sm:(!text-6xl mb-10)">
+        <p class="mb-5 text-orange-700 font-extrabold text-5xl <sm:(!text-6xl mb-10)">
           Our current mission
         </p>
-        <p class="text-orange-500 font-semibold"
+        <p class="text-white font-semibold"
           >This year we are competing worldwide in NASA Human Exploration Rover Challenge (HERC) 2023.</p
         >
       </div>
       <div class="grid md:grid-cols-2 gap-8 mt-8 w-full h-sm">
-        <div class="border-2 border-white aspect-video w-full rounded-xl h-full md:h-auto">
+        <div class="<xs:h-sm <xs:w-50 border-2 border-white aspect-video w-full rounded-xl h-full md:h-auto">
           <iframe
             class="w-full h-full"
             :src="`https://www.youtube.com/embed/kmV5IDXUc9A`"

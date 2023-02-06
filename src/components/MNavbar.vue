@@ -30,7 +30,7 @@
 
         <a
           href="#"
-          class="px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+          class="<sm:hidden px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
           >Challenges</a
         >
       </div>
