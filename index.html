@@ -2,11 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="src/assets/minilogo.jpeg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vite App</title>
   </head>
   <body>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <div class="bg-black absolute w-full h-full" id="particles-js"></div>
+    <script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
