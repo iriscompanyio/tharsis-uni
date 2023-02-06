@@ -5,4 +5,3 @@ import './assets/main.css'
 import 'virtual:windi.css'
 
 createApp(App).mount('#app')
- 

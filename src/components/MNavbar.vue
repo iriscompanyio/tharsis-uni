@@ -1,6 +1,6 @@
 <template>
   <div class="px-4rem py-1rem items-center bg-black w-full">
-    <div class="px-4rem flex items-center">
+    <div class="px-4rem flex items-center justify-between mx-auto max-w-7xl">
       <div class="ml-56px">
         <img
           src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1675576841/logo_principal_dark_1_czcm86.png"
@@ -34,7 +34,7 @@
           >Desafios</a
         >
       </div>
-      <div class="flex ml-10rem">
+      <div class="flex ml-24rem">
         <a
           href="#"
           class="px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
