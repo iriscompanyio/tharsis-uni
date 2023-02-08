@@ -11,7 +11,7 @@
       <div class="grid md:grid-cols-2 gap-8 mt-8 w-full h-sm <xs:w-auto">
         <div class="<border-2 border-white aspect-video <xl:w-auto <xl:h-auto <xl:mx-2rem w-full rounded-xl h-full md:h-auto">
           <iframe
-            class="<xl:h-auto <xl:w-full w-full h-full"
+            class="<lg:h-auto <xl:w-full w-full h-full"
             :src="`https://www.youtube.com/embed/kmV5IDXUc9A`"
             title="Diseño Mecánico Trabajando | Mechanical design"
             frameborder="0"
@@ -20,7 +20,7 @@
         </div>
         <div class="border-2 border-white aspect-video <xl:w-auto <xl:mx-2rem w-full rounded-xl h-full md:h-auto">
           <iframe
-            class="<xl:h-auto <xl:w-full w-full h-full"
+            class="<lg:h-auto <xl:w-full w-full h-full"
             :src="`https://www.youtube.com/embed/Sc-oLX-Pwns`"
             title="Diseño Mecánico Trabajando | Mechanical design"
             frameborder="0"

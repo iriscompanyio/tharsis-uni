@@ -3,7 +3,7 @@ version: '3.9'
 networks:
   network_iot:
     external:
-      name: iot-name
+      name: iot-net
 
 services:
   www:

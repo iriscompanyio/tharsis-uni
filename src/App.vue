@@ -5,6 +5,7 @@
     import MCounter from "./components/MCounter.vue";
     import MBrand from "./components/MBrand.vue";
     import MFooter from "./components/MFooter.vue";
+    import MCarrousel from "./components/MCarrousel.vue";
     import MInitButton from "./components/MInitButton.vue";
 </script>
 <template>
@@ -12,8 +13,8 @@
     <MNavbar />
     <MBrand />
     <MCounter />
+    <MCarrousel />
     <MVideo />
     <MFooter />
     <MInitButton />
 </template>  
-
