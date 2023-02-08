@@ -13,9 +13,8 @@ import MCarrousel from "./components/MCarrousel.vue";
   <MNavbar />
   <MBrand />
   <MCounter />
-  <MVideo />
-  // <MFooter />
   <MCarrousel />
+  <MVideo />
 </template>
 
 <style scoped></style>
