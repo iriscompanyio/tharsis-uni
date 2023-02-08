@@ -3,7 +3,7 @@
     class="sticky border-2 border-gray-600 bg-gray-700 rounded-100px p-0.5rem bottom-22 mx-auto z-1 <sm:bottom-32 w-270px"
   >
     <a
-      href="https://tharsis-g12mdoacr-tharsis-uni.vercel.app/landing"
+      href="https://tharsis.pe"
       class="text-white text-center rounded-100px hover:bg-gray-600 flex gap-2"
     >
       <svg
@@ -24,7 +24,7 @@
         <line x1="14" y1="12" x2="10" y2="8" />
         <line x1="20" y1="4" x2="20" y2="20" />
       </svg>
-      Log in to Comment <span> <svg
+      Back to home <span> <svg
         xmlns="http://www.w3.org/2000/svg"
         width="28"
         height="28"
