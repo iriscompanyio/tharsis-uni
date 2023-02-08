@@ -17,6 +17,7 @@ RUN     echo ${conf}
 COPY    ./default.conf /etc/nginx/conf.d/default.conf
 WORKDIR /usr/share/nginx/html
 COPY     --from=build /dist/src/app/dist /usr/share/nginx/html
+COPY     --from=build /dist/src/app/particles.json /usr/share/nginx/html
 EXPOSE  80
 RUN     chmod +x /entrypoint.sh
 CMD     [ "/entrypoint.sh" ]
