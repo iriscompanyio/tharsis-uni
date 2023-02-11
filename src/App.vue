@@ -6,15 +6,18 @@
     import MBrand from "./components/MBrand.vue";
     import MFooter from "./components/MFooter.vue";
     import MCarrousel from "./components/MCarrousel.vue";
+    import MEvents from "./components/MEvents.vue";
     import MInitButton from "./components/MInitButton.vue";
 </script>
-<template>
+</template>
     <MLabel />
     <MNavbar />
     <MBrand />
     <MCounter />
     <MCarrousel />
     <MVideo />
+    <MEvents/>
     <MFooter />
     <MInitButton />
 </template>  
+
