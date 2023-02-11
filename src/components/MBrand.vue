@@ -1,5 +1,5 @@
 <template>
-    <div class="justify-between mx-auto flex flex-wrap py-4rem">
+    <div id="home" class="justify-between mx-auto flex flex-wrap py-4rem">
       <div class="max-w-4xl md:ml-6rem mx-1rem">
         <p tag="h1" class="<2xl:text-5xl text-orange-700 sm:text-6xl mb-7 max-w-3xl !font-bold">
           Find out more about the project that will represent Peru in the HERC

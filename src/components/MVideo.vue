@@ -1,5 +1,5 @@
 <template>
-    <div class="pb-4rem max-w-7xl w-full mx-auto py-4 flex flex-col items-center bg-black-500">
+    <div id="mission" class="pb-4rem max-w-7xl w-full mx-auto py-4 flex flex-col items-center bg-black-500">
       <div class="mx-auto text-center max-w-md mb-10">
         <p class="mb-5 text-orange-700 font-extrabold text-5xl <sm:(!text-6xl mb-10)">
           Our current mission

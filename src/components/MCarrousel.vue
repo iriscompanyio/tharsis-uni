@@ -1,5 +1,5 @@
 <template>
-  <div class="my-2rem bg-hex-171923 w-1056px mx-auto rounded-15px h-401px sm: <lg:w-318px">
+  <div id="sponsors" class="my-2rem bg-hex-171923 w-1056px mx-auto rounded-15px h-401px sm: <lg:w-318px">
     <div class="slider lg:w-60rem sm:20vw">
       <p
         class="mt-39px w-987px h-148px mx-auto text-32px text-center text-white <lg:w-235px <lg:text-17px"
