@@ -5,6 +5,7 @@ import MVideo from "./components/MVideo.vue";
 import MCounter from "./components/MCounter.vue";
 import MBrand from "./components/MBrand.vue";
 import MCarrousel from "./components/MCarrousel.vue";
+import MEvents from "./components/MEvents.vue";
 //import MFooter from "./components/MFooter.vue";
 </script>
 
@@ -15,6 +16,7 @@ import MCarrousel from "./components/MCarrousel.vue";
   <MCounter />
   <MCarrousel />
   <MVideo />
+  <MEvents/>
 </template>
 
 <style scoped></style>
