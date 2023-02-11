@@ -9,7 +9,7 @@
     import MEvents from "./components/MEvents.vue";
     import MInitButton from "./components/MInitButton.vue";
 </script>
-</template>
+<template>
     <MLabel />
     <MNavbar />
     <MBrand />

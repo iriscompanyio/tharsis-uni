@@ -1,20 +1,27 @@
 <template>
-  <div>
+  <div class="pt-2rem pb-2rem" id="community">
+    <div class="mx-auto text-center max-w-md mb-10">
+        <p class="mb-5 text-orange-700 font-extrabold text-5xl <sm:(!text-6xl mb-10)">
+          Our Community
+        </p>
+        <p class="text-white font-semibold"
+          >This year we are competing worldwide in NASA Human Exploration Rover Challenge (HERC) 2023.</p
+        >
+     </div>
     <div class="slider_event sm:20vw ">
       <div class="slide-track_event">
         <div class="slide_event">
           <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
             <img
               class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1676081844/tharsis-uni/312598527_667851718185644_8860117211946033095_n_2_ei89mv.jpg"
+              src="https://res.cloudinary.com/joseniquen/image/upload/v1673991549/tharsis-events/IMG_4216_arbska.jpg" 
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Capacitación STEM #2</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Arequipa, Perú</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">1st Event - Virgen del Rosario School</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+                Join us in what was our first STEM event at the CEP Virgen del Rosario del Naranjal school.
               </p>
             </div>
           </div>
@@ -24,33 +31,14 @@
           <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
             <img
               class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1675971005/tharsis-uni/DSC_0332_1_ndvzis.jpg"
+              src="https://res.cloudinary.com/joseniquen/image/upload/v1673992082/tharsis-events/DSC_0031_zywdif.jpg"
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Capacitación STEM #1</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Tarapoto, Perú</h2>
-              <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="slide_event">
-          <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
-            <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1676081494/tharsis-uni/DSC_0027_3_kg60cv.jpg"
-              alt=""
-            />
-            <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Soldadura en el Lab</h1>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">2nd Event - I.E.P Miravalles</h1>
               <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Perú</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+                Our STEM team is always active and on this second opportunity we visited Colegio Miravalles.
               </p>
             </div>
           </div>
@@ -59,16 +47,15 @@
         <div class="slide_event">
           <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
             <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1676081843/tharsis-uni/316177129_678652853772197_2038436030971514705_n_2_txytz3.jpg"
+              class="h-220px rounded-t-3xl"
+              src="https://res.cloudinary.com/joseniquen/image/upload/v1673992364/tharsis-events/18_18_53_r3xekk.jpg"
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Concurso HERC 2023</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Texas, USA</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">3rd Event - Plazuela de las Artes</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+                Join us in the last event of the month of September of the STEM team that was in the plazuela de las artes.
               </p>
             </div>
           </div>
@@ -77,16 +64,15 @@
         <div class="slide_event">
           <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
             <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1676081844/tharsis-uni/312598527_667851718185644_8860117211946033095_n_2_ei89mv.jpg"
+              class="w-332px h-220px rounded-t-3xl"
+              src="https://res.cloudinary.com/joseniquen/image/upload/v1673992934/tharsis-events/311411841_644239167213566_4426601099507284728_n_m4ni9i.jpg"
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Capacitación STEM #2</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Arequipa, Perú</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">II Announcement Tharsis 2023</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+                This year, we open internship in Tharsis team in order to prepare the next challenges.
               </p>
             </div>
           </div>
@@ -95,16 +81,15 @@
         <div class="slide_event">
           <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
             <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1675971005/tharsis-uni/DSC_0332_1_ndvzis.jpg"
+              class="w-332px h-220px rounded-t-3xl"
+              src="https://res.cloudinary.com/joseniquen/image/upload/v1673993360/tharsis-events/DSC_0155_yugtri.jpg"
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Capacitación STEM #1</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Tarapoto, Perú</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">4th Event - I.E.P. Miravalles - I.E.P Humtec</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+                In October 2022 the STEM area was preparing various activities for all of you. Join us on our first day of visiting the HUMTEC and MIRAVALLES schools.
               </p>
             </div>
           </div>
@@ -114,15 +99,31 @@
           <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
             <img
               class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1676081494/tharsis-uni/DSC_0027_3_kg60cv.jpg"
+              src="https://res.cloudinary.com/joseniquen/image/upload/v1673991549/tharsis-events/IMG_4216_arbska.jpg" 
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Soldadura en el Lab</h1>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">1st Event - Virgen del Rosario School</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
+              <p class="text-hex-D2D2D2 ml-20px">
+                Join us in what was our first STEM event at the CEP Virgen del Rosario del Naranjal school.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide_event">
+          <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
+            <img
+              class="w-332px rounded-t-3xl"
+              src="https://res.cloudinary.com/joseniquen/image/upload/v1673992082/tharsis-events/DSC_0031_zywdif.jpg"
+              alt=""
+            />
+            <div>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">2nd Event - I.E.P Miravalles</h1>
               <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Perú</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+                Our STEM team is always active and on this second opportunity we visited Colegio Miravalles.
               </p>
             </div>
           </div>
@@ -131,16 +132,15 @@
         <div class="slide_event">
           <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
             <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1676081843/tharsis-uni/316177129_678652853772197_2038436030971514705_n_2_txytz3.jpg"
+              class="h-220px rounded-t-3xl"
+              src="https://res.cloudinary.com/joseniquen/image/upload/v1673992364/tharsis-events/18_18_53_r3xekk.jpg"
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Concurso HERC 2023</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Texas, USA</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">3rd Event - Plazuela de las Artes</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+                Join us in the last event of the month of September of the STEM team that was in the plazuela de las artes.
               </p>
             </div>
           </div>
@@ -149,16 +149,15 @@
         <div class="slide_event">
           <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
             <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1676081844/tharsis-uni/312598527_667851718185644_8860117211946033095_n_2_ei89mv.jpg"
+              class="w-332px h-220px rounded-t-3xl"
+              src="https://res.cloudinary.com/joseniquen/image/upload/v1673992934/tharsis-events/311411841_644239167213566_4426601099507284728_n_m4ni9i.jpg"
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Capacitación STEM #2</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Arequipa, Perú</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">II Announcement Tharsis 2023</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+                This year, we open internship in Tharsis team in order to prepare the next challenges.
               </p>
             </div>
           </div>
@@ -167,92 +166,20 @@
         <div class="slide_event">
           <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
             <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1675971005/tharsis-uni/DSC_0332_1_ndvzis.jpg"
+              class="w-332px h-220px rounded-t-3xl"
+              src="https://res.cloudinary.com/joseniquen/image/upload/v1673993360/tharsis-events/DSC_0155_yugtri.jpg"
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Capacitación STEM #1</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Tarapoto, Perú</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">4th Event - I.E.P. Miravalles - I.E.P Humtec</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+                In October 2022 the STEM area was preparing various activities for all of you. Join us on our first day of visiting the HUMTEC and MIRAVALLES schools.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="slide_event">
-          <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
-            <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1676081494/tharsis-uni/DSC_0027_3_kg60cv.jpg"
-              alt=""
-            />
-            <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Soldadura en el Lab</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Perú</h2>
-              <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="slide_event">
-          <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
-            <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1676081843/tharsis-uni/316177129_678652853772197_2038436030971514705_n_2_txytz3.jpg"
-              alt=""
-            />
-            <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Concurso HERC 2023</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Texas, USA</h2>
-              <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="slide_event">
-          <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
-            <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1676081844/tharsis-uni/312598527_667851718185644_8860117211946033095_n_2_ei89mv.jpg"
-              alt=""
-            />
-            <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Capacitación STEM #2</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Arequipa, Perú</h2>
-              <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="slide_event">
-          <div class="bg-hex-1C1C1E rounded-3xl h-422px w-332px">
-            <img
-              class="w-332px rounded-t-3xl"
-              src="https://res.cloudinary.com/dkljgkuyy/image/upload/v1675971005/tharsis-uni/DSC_0332_1_ndvzis.jpg"
-              alt=""
-            />
-            <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">Capacitación STEM #1</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Tarapoto, Perú</h2>
-              <p class="text-hex-D2D2D2 ml-20px">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-                Aliquam in hendrerit urna. Pellentesque sit amet sapien.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
