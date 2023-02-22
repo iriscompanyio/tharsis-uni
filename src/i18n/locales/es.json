@@ -1,0 +1,50 @@
+{
+    "label": {
+        "text": "¡Amantes de Tharsis, quedan 2 meses y 20 días para el HERC 2023 de la NASA!",
+        "a": "Aprende más"
+    },
+    "nav": {
+        "home": "Inicio",
+        "events": "Eventos",
+        "community": "Comunidad",
+        "challenges": "Desafios"
+    },
+    "locale": {
+        "en": "Ingles",
+        "es": "Español"
+    },
+    "brand": {
+        "title": "Conoce más sobre el proyecto que representará al Perú en la HERC",
+        "p": "Somos un equipo multidisciplinario de estudiantes de la Universidad Nacional de Ingeniería que participará en el Human Exploration Rover Challenge 2023 (HERC) de la NASA"
+    },
+    "carrousel": {
+        "title": "Somos un equipo multidisciplinario de estudiantes de la Universidad Nacional de Ingeniería que participará en el Human Exploration Rover Challenge 2023 (HERC) de la NASA",
+        "p": "APOYO Y RESPALDO DE"
+    },
+    "video": {
+        "title": "Nuestra misión actual",
+        "p": "Este año estamos compitiendo a nivel mundial en el Human Exploration Rover Challenge (HERC) 2023 de la NASA."
+    },
+    "events": {
+        "title": "Nuestra comunidad",
+        "p": "Este año estamos compitiendo a nivel mundial en el Human Exploration Rover Challenge (HERC) 2023 de la NASA.",
+        "title_card_1": "1er Evento - Colegio Virgen del Rosario",
+        "subtitle_card_1": "Lima, Perú",
+        "p_card_1": "Acompáñanos en lo que fue nuestro primer evento STEM en el colegio CEP Virgen del Rosario del Naranjal.",
+        "title_card_2": "2do Evento - I.E.P Miravalles",
+        "subtitle_card_2": "Lima, Perú",
+        "p_card_2": "Nuestro equipo STEM siempre está activo y en esta segunda oportunidad visitamos el Colegio Miravalles.",
+        "title_card_3": "3er Evento - Plazuela de las Artes",
+        "subtitle_card_3": "Lima, Perú",
+        "p_card_3": "Acompáñanos en el último evento del mes de septiembre del equipo STEM que estuvo en la plazuela de las artes.",
+        "title_card_4": "II Convocatoria Tharsis 2023",
+        "subtitle_card_4": "Lima, Perú",
+        "p_card_4": "Este año abrimos prácticas en el equipo de Tharsis para preparar los próximos retos.",
+        "title_card_5": "4to Evento - I.E.P Miravalles - I.E.P Humtec",
+        "subtitle_card_5": "Lima, Perú",
+        "p_card_5": "En octubre de 2022 el área STEM estuvo preparando diversas actividades para todos ustedes. Únase a nosotros en nuestro primer día de visita a las escuelas HUMTEC y MIRAVALLES."
+    },
+    "button": {
+        "button": "Volver al inicio"
+    }
+}

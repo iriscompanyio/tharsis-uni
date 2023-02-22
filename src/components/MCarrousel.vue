@@ -4,12 +4,10 @@
       <p
         class="mt-39px w-987px h-148px mx-auto text-32px text-center text-white <lg:w-235px <lg:text-17px"
       >
-        We are a team of multidisciplinary students from the National Engineering
-        University that will participate in the NASA Human Exploration Rover Challenge
-        2023 (HERC)
+        {{ $t("carrousel.title") }}
       </p>
       <p class="text-32px text-hex-E8684B text-center sm:W-212px <md:text-17px mb-31px">
-        SUPPORT AND BACKED BY
+        {{ $t("carrousel.p") }}
       </p>
       <div class="slide-track">
         <div class="slide">

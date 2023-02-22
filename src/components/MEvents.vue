@@ -2,10 +2,10 @@
   <div class="pt-2rem pb-2rem" id="community">
     <div class="mx-auto text-center max-w-md mb-10">
         <p class="mb-5 text-orange-700 font-extrabold text-5xl <sm:(!text-6xl mb-10)">
-          Our Community
+          {{$t("events.title")}}
         </p>
         <p class="text-white font-semibold"
-          >This year we are competing worldwide in NASA Human Exploration Rover Challenge (HERC) 2023.</p
+          >{{ $t("events.p") }}</p
         >
      </div>
     <div class="slider_event sm:20vw ">
@@ -18,11 +18,9 @@
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">1st Event - Virgen del Rosario School</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
-              <p class="text-hex-D2D2D2 ml-20px">
-                Join us in what was our first STEM event at the CEP Virgen del Rosario del Naranjal school.
-              </p>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">{{ $t("events.title_card_1") }}</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">{{ $t("events.subtitle_card_1") }}</h2>
+              <p class="text-hex-D2D2D2 ml-20px">{{ $t("events.p_card_1") }}</p>
             </div>
           </div>
         </div>
@@ -35,10 +33,10 @@
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">2nd Event - I.E.P Miravalles</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Perú</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">{{ $t("events.title_card_2") }}</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">{{ $t("events.subtitle_card_2") }}</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Our STEM team is always active and on this second opportunity we visited Colegio Miravalles.
+                {{ $t("events.p_card_2") }}
               </p>
             </div>
           </div>
@@ -52,10 +50,10 @@
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">3rd Event - Plazuela de las Artes</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">{{ $t("events.title_card_3") }}</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">{{ $t("events.subtitle_card_3") }}</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Join us in the last event of the month of September of the STEM team that was in the plazuela de las artes.
+                {{ $t("events.p_card_3") }}
               </p>
             </div>
           </div>
@@ -69,10 +67,10 @@
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">II Announcement Tharsis 2023</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">{{ $t("events.title_card_4") }}</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">{{ $t("events.subtitle_card_4") }}</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                This year, we open internship in Tharsis team in order to prepare the next challenges.
+                {{ $t("events.p_card_4") }}
               </p>
             </div>
           </div>
@@ -86,10 +84,10 @@
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">4th Event - I.E.P. Miravalles - I.E.P Humtec</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
-              <p class="text-hex-D2D2D2 ml-20px">
-                In October 2022 the STEM area was preparing various activities for all of you. Join us on our first day of visiting the HUMTEC and MIRAVALLES schools.
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">{{ $t("events.title_card_5") }}</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">{{ $t("events.subtitle_card_5") }}</h2>
+              <p class="text-hex-D2D2D2 text-sm ml-20px">
+                {{ $t("events.p_card_5") }}
               </p>
             </div>
           </div>
@@ -103,10 +101,10 @@
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">1st Event - Virgen del Rosario School</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">{{ $t("events.title_card_1") }}</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">{{ $t("events.subtitle_card_1") }}</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Join us in what was our first STEM event at the CEP Virgen del Rosario del Naranjal school.
+                {{ $t("events.p_card_1") }}
               </p>
             </div>
           </div>
@@ -120,10 +118,10 @@
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">2nd Event - I.E.P Miravalles</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Perú</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">{{ $t("events.title_card_2") }}</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">{{ $t("events.subtitle_card_2") }}</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Our STEM team is always active and on this second opportunity we visited Colegio Miravalles.
+                {{ $t("events.p_card_2") }}
               </p>
             </div>
           </div>
@@ -137,10 +135,10 @@
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">3rd Event - Plazuela de las Artes</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">{{ $t("events.title_card_3") }}</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">{{ $t("events.subtitle_card_3") }}</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                Join us in the last event of the month of September of the STEM team that was in the plazuela de las artes.
+                {{ $t("events.p_card_3") }}
               </p>
             </div>
           </div>
@@ -154,10 +152,10 @@
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">II Announcement Tharsis 2023</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">">{{ $t("events.title_card_4") }}</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">{{ $t("events.subtitle_card_4") }}</h2>
               <p class="text-hex-D2D2D2 ml-20px">
-                This year, we open internship in Tharsis team in order to prepare the next challenges.
+                {{ $t("events.p_card_4") }}
               </p>
             </div>
           </div>
@@ -171,15 +169,14 @@
               alt=""
             />
             <div>
-              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">4th Event - I.E.P. Miravalles - I.E.P Humtec</h1>
-              <h2 class="text-light-50 text-18px mb-10px ml-20px">Lima, Peru</h2>
-              <p class="text-hex-D2D2D2 ml-20px">
-                In October 2022 the STEM area was preparing various activities for all of you. Join us on our first day of visiting the HUMTEC and MIRAVALLES schools.
+              <h1 class="text-24px text-light-50 w-287px my-10px ml-20px">{{ $t("events.title_card_5") }}</h1>
+              <h2 class="text-light-50 text-18px mb-10px ml-20px">{{ $t("events.subtitle_card_5") }}</h2>
+              <p class="text-hex-D2D2D2 text-sm ml-20px">
+                {{ $t("events.p_card_5") }}
               </p>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>

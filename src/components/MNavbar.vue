@@ -1,3 +1,9 @@
+<script>
+  import LanguageSwitcher from './LanguageSwitcher.vue';
+  export default {
+    components:{LanguageSwitcher}
+  }
+</script>
 <template>
   <div class="<2xl:px-1rem px-4rem py-1rem items-center bg-black w-full">
     <div class="<2xl:px-1rem px-4rem flex items-center justify-between mx-auto max-w-7xl">
@@ -13,34 +19,35 @@
           href="#home"
           class="px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
           aria-current="page"
-          >Home</a
+          >{{ $t("nav.home") }}</a
         >
 
         <a
           href="#mission"
           class="px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-          >Events</a
+          >{{ $t("nav.events") }}</a
         >
 
         <a
           href="#community"
           class="px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-          >Community</a
+          >{{ $t("nav.community") }}</a
         >
 
         <a
           href="#mission"
           class="<sm:hidden px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-          >Challenges</a
+          >{{ $t("nav.challenges") }}</a
         >
       </div>
       <div class="<xl:hidden ml-56px">
-        <a
+        <!-- <a
           href="#"
           class="px-2rem text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
           aria-current="page"
-          >English</a
-        >
+          >{{ $t("nav.a") }}</a
+        > -->
+        <LanguageSwitcher/>
         <a
           href="#sponsors"
           class="px-2rem ml-1rem text-gray-600 bg-light-50 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
