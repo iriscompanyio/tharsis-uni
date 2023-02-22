@@ -1,15 +1,25 @@
-import { fileURLToPath, URL } from 'node:url'
-
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import WindiCSS from 'vite-plugin-windicss'
+import { fileURLToPath, URL } from "node:url";
+import { resolve, dirname } from "node:path";
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
+import WindiCSS from "vite-plugin-windicss";
+import VueI18nPlugin from "@intlify/unplugin-vue-i18n/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(),WindiCSS()],
+  plugins: [
+    vue(),
+    WindiCSS(),
+    VueI18nPlugin({
+      include: resolve(
+        dirname(fileURLToPath(import.meta.url)),
+        "./src/locales/*"
+      ),
+    }),
+  ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
-})
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
+    },
+  },
+});

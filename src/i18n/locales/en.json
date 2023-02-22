@@ -1,0 +1,55 @@
+{
+    "label": {
+        "text": "Tharsis lovers, 2 months and 20 days left for NASA HERC 2023!",
+        "a": "Learn more"
+    },
+    "nav": {
+      "home": "Home",
+      "events": "Events",
+      "community": "Community",
+      "challenges": "Challenges"
+    },
+    "locale":{
+      "en":"English",
+      "es":"Spanish"
+    },
+    "brand": {
+      "title": "Find out more about the project that will represent Peru in the HERC",
+      "p": "We are a team of multidisciplinary students from the National Engineering University that will participate in the NASA Human Exploration Rover Challenge 2023 (HERC)"
+    },
+    "carrousel": {
+      "title": "We are a team of multidisciplinary students from the National Engineering University that will participate in the NASA Human Exploration Rover Challenge 2023 (HERC)",
+      "p": "SUPPORT AND BACKED BY"
+    },
+    "video": {
+        "title": "Our current mission",
+        "p": "This year we are competing worldwide in NASA Human Exploration Rover Challenge (HERC) 2023."
+    },
+    "events": {
+      "title": "Our Community",
+      "p": "This year we are competing worldwide in NASA Human Exploration Rover Challenge (HERC) 2023.",
+      
+      "title_card_1": "1st Event - Virgen del Rosario School",
+      "subtitle_card_1": "Lima, Peru",
+      "p_card_1": "Join us in what was our first STEM event at the CEP Virgen del Rosario del Naranjal school.",
+
+      "title_card_2": "2nd Event - I.E.P Miravalles",
+      "subtitle_card_2": "Lima, Perú",
+      "p_card_2": "Our STEM team is always active and on this second opportunity we visited Colegio Miravalles.",
+
+      "title_card_3": "3rd Event - Plazuela de las Artes",
+      "subtitle_card_3": "Lima, Peru",
+      "p_card_3": "Join us in the last event of the month of September of the STEM team that was in the plazuela de las artes.",
+
+      "title_card_4": "II Announcement Tharsis 2023",
+      "subtitle_card_4": "Lima, Peru",
+      "p_card_4": "This year, we open internship in Tharsis team in order to prepare the next challenges.",
+
+      "title_card_5": "4th Event - I.E.P. Miravalles - I.E.P Humtec",
+      "subtitle_card_5": "Lima, Peru",
+      "p_card_5": "In October 2022 the STEM area was preparing various activities for all of you. Join us on our first day of visiting the HUMTEC and MIRAVALLES schools."
+    },
+    "button": {
+        "button": "Back to home"
+    }
+}
